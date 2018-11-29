@@ -1,4 +1,4 @@
-sortNum = (num) => {
+const sortNum = (num) => {
 	num.sort((a, b) => {
 		if(a === b) {
 			return 0
